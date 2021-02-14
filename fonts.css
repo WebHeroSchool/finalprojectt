@@ -21,7 +21,7 @@
     src: url('fonts/montserrat-regular-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
-}    
+}
 @font-face {
     font-family: 'gilroyblack';
     src: url('fonts/gilroy-black-webfont.woff') format('woff');
@@ -29,8 +29,8 @@
     font-style: normal;
 }
 @font-face {
-    font-family: 'gilroybold';
-    src: url('fonts/gilroy-bold-webfont.woff') format('woff');
+    font-family: 'gilroyextrabold';
+    src: url('fonts/gilroy-extrabold-webfont.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
