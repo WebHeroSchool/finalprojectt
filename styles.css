@@ -1,0 +1,54 @@
+.content__title{
+  font-family:'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.content__subtitle{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.content__text{
+  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+}
+.content__button{
+  font-family: 'montserratbold', arial, helvetica, sans-serif;
+}
+.plans__title-one{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.container-one__title{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.container-one__subtitle{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.container-two__title{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.container-two__subtitle{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.container-three__title{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.container-three__subtitle{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.plans__title-two{
+  font-family:'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.plans__text{
+  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+}
+.application__title{
+  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+}
+.from-application__name{
+  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+}
+.from-application__mail{
+  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+}
+.from-application__button{
+  font-family: 'montserratbold', arial, helvetica, sans-serif;
+}
+.footer__logo{
+  font-family: 'robotoregular', arial, helvetica, sans-serif;
+}
