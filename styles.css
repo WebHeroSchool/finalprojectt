@@ -58,44 +58,44 @@ a{
   opacity: 1;
 }
 .plans__title-one{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 40px/49px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .container-one__title{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 30px/37px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .container-one__subtitle{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 20px/25px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .container-two__title{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 30px/37px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .container-two__subtitle{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 20px/25px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .container-three__title{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 30px/37px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .container-three__subtitle{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 20px/25px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .plans__title-two{
-  font-family:'Gilroy Bold', arial, helvetica, sans-serif;
+  font:800 40px/49px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .plans__text{
-  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 30px/35px 'Gilroy Regular', arial, helvetica, sans-serif;
 }
 .application__title{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 40px/49px 'Gilroy Bold', arial, helvetica, sans-serif;
 }
 .from-application__name{
-  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 20px/24px 'Gilroy Regular', arial, helvetica, sans-serif;
 }
 .from-application__mail{
-  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 20px/24px 'Gilroy Regular', arial, helvetica, sans-serif;
 }
 .from-application__button{
-  font-family: 'montserratbold', arial, helvetica, sans-serif;
+  font: 900 20px/25px 'montserratbold', arial, helvetica, sans-serif;
 }
 .footer__logo{
-  font-family: 'robotoregular', arial, helvetica, sans-serif;
+  font: 400 15px/18px'robotoregular', arial, helvetica, sans-serif;
 }
