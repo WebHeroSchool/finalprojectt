@@ -1,14 +1,61 @@
+a{
+  text-decoration: none;
+}
+.body{
+  margin: 0;
+}
+.wrapper{
+  background: #3030C1;
+  margin: auto;
+  height: 840px;
+}
+.header{
+  padding: 60px 9% 0 9%;
+  margin-bottom: 80px;
+}
+.logo{
+  background: left no-repeat url(img/logo.svg);
+  width: 180px;
+  height: 47px;
+}
+.content{
+  padding: 0 43px 135px 130px;
+  width: 1140px;
+  background: top right no-repeat url(img/img.svg);
+}
 .content__title{
-  font-family:'Gilroy Bold', arial, helvetica, sans-serif;
+  color: #fff;
+  width: 750px;
+  padding-top: 50px;
+  font: 800 45px/55px 'Gilroy Regular', arial, helvetica, sans-serif;
+  margin-bottom: 32px;
 }
 .content__subtitle{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  color: #FFCC33;
+  width: 420px;
+  font: 800 30px/37px 'Gilroy Bold', arial, helvetica, sans-serif;
+  margin-bottom: 10px;
 }
 .content__text{
-  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+  color: #fff;
+  width: 461px;
+  font: 300 20px/23px 'Gilroy Regular', arial, helvetica, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 .content__button{
-  font-family: 'montserratbold', arial, helvetica, sans-serif;
+  padding: 17px 25px;
+  color:  #3030C1;
+  width: 170px;
+  height: 24px;
+  background: #FFCC33;
+  font: 900 20px/24px 'montserratbold', arial, helvetica, sans-serif;
+  cursor: pointer;
+  opacity: .9;
+  transition: opacity .5s ease-out;
+}
+.content__button:hover{
+  opacity: 1;
 }
 .plans__title-one{
   font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
