@@ -15,7 +15,6 @@ a{
 }
 .logo{
   background: left no-repeat url(img/logo.svg);
-  padding-left: 20px;
   width: 180px;
   height: 47px;
 }
@@ -26,10 +25,10 @@ a{
 }
 .content__title{
   color: #fff;
-  width: 750px;
   padding-top: 50px;
   font:800 45px/55px 'Gilroy', arial, helvetica, sans-serif;
   margin-bottom: 32px;
+  padding-right: 45%;
 }
 .content__subtitle{
   color: #FFCC33;
@@ -99,4 +98,44 @@ a{
 }
 .footer__logo{
   font: 400 15px/18px'robotoregular', arial, helvetica, sans-serif;
+}
+@media(max-width:768px){
+  span{
+    display: block;
+  }
+  .logo{
+    background-size: 6em;
+  }
+  .header{
+    padding: 25px 0 0 30px;
+    margin-bottom: 0;
+  }
+  .content{
+    width: 259px;
+    padding: 0 0 58% 30px;
+    background-size: 16em;
+    background-position: bottom center;
+  }
+  .content__title{
+    padding-top: 0;
+    width: 247px;
+    height: 93px;
+    font:800 25px/31px 'Gilroy', arial, helvetica, sans-serif;
+    margin-bottom: 25px;
+    margin-top: 15px;
+  }
+  .content__subtitle{
+    margin:0;
+    width: 235px;
+    height: 50px;
+    font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__text{
+    width: 236px;
+    height: 51px;
+    font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__button{
+    display: none;
+  }
 }
