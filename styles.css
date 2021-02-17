@@ -11,10 +11,11 @@ a{
 }
 .header{
   padding: 60px 9% 0 9%;
-  margin-bottom: 80px;
+  margin-bottom: 82px;
 }
 .logo{
   background: left no-repeat url(img/logo.svg);
+  padding-left: 20px;
   width: 180px;
   height: 47px;
 }
@@ -27,19 +28,19 @@ a{
   color: #fff;
   width: 750px;
   padding-top: 50px;
-  font: 800 45px/55px 'Gilroy Regular', arial, helvetica, sans-serif;
+  font:800 45px/55px 'Gilroy', arial, helvetica, sans-serif;
   margin-bottom: 32px;
 }
 .content__subtitle{
   color: #FFCC33;
   width: 420px;
-  font: 800 30px/37px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
   margin-bottom: 10px;
 }
 .content__text{
   color: #fff;
   width: 461px;
-  font: 300 20px/23px 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 20px/23px 'Gilroy', arial, helvetica, sans-serif;
   margin-bottom: 50px;
   margin-top: 0;
 }
@@ -58,40 +59,40 @@ a{
   opacity: 1;
 }
 .plans__title-one{
-  font: 800 40px/49px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-one__title{
-  font: 800 30px/37px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-one__subtitle{
-  font: 800 20px/25px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-two__title{
-  font: 800 30px/37px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-two__subtitle{
-  font: 800 20px/25px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-three__title{
-  font:  800 30px/37px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-three__subtitle{
-  font: 800 20px/25px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
 }
 .plans__title-two{
-  font:800 40px/49px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
 }
 .plans__text{
-  font: 300 30px/35px 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 30px/35px 'Gilroy', arial, helvetica, sans-serif;
 }
 .application__title{
-  font: 800 40px/49px 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: bold 800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
 }
 .from-application__name{
-  font: 300 20px/24px 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 20px/24px 'Gilroy', arial, helvetica, sans-serif;
 }
 .from-application__mail{
-  font: 300 20px/24px 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 20px/24px 'Gilroy', arial, helvetica, sans-serif;
 }
 .from-application__button{
   font: 900 20px/25px 'montserratbold', arial, helvetica, sans-serif;
