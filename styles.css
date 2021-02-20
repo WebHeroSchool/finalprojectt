@@ -125,6 +125,9 @@ a{
   }
 }
 @media(max-width:1050px) {
+  .wrapper{
+    height: 700px;
+  }
   .content{
     background-size: 30em;
     padding-left: 90px;
@@ -145,6 +148,9 @@ a{
   }
 }
 @media (max-width: 968px) {
+  .wrapper{
+    height: 600px;
+  }
   .header{
     margin-bottom: 35px;
   }
@@ -170,43 +176,100 @@ a{
     font: 900 19px/22px 'montserratbold', arial, helvetica, sans-serif;
   }
 }
+@media( max-width:857px){
+  .wrapper{
+    height: 500px;
+  }
+  .content{
+    background-size: 24em;
+    padding-left: 80px;
+    width: 756px;
+  }
+  .content__title{
+   font: 800 26px/40px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 15px;
+  }
+  .content__subtitle{
+   margin-top: 0;
+   font: 800 24px/25px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__text{
+   font: 300 16px/20px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 30px;
+  }
+}
+@media(max-width:768px) {
+  .wrapper{
+    height: 460px;
+  }
+  .logo{
+   background-size: 8em;
+ }
+ .header{
+   padding: 25px 0 0 40px;
+   margin-bottom: 40px;
+ }
+ .content{
+   padding: 0 35% 50px 40px;
+   width: 455px;
+   background-size: 20em;
+ }
+ .content__title{
+   padding: 0;
+   font: 800 28px/31px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 20px;
+   margin-top: 15px;
+ }
+ .content__subtitle{
+   margin:0;
+   margin-bottom: 10px;
+   font: 800 24px/25px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .content__text{
+   font: 300 17px/17px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .content__button{
+     padding: 14px 15px;
+     font: 900 15px/22px 'montserratbold', arial, helvetica, sans-serif;
+   }
+}
 @media(max-width:424px){
   span{
     display: block;
   }
   .logo{
-    background-size: 6em;
-  }
-  .header{
-    padding: 25px 0 0 30px;
-    margin-bottom: 0;
-  }
-  .content{
-    width: 259px;
-    padding: 0 0 58% 30px;
-    background-size: 16em;
-    background-position: bottom center;
-  }
-  .content__title{
-    padding: 0;
-    width: 247px;
-    height: 93px;
-    font:800 25px/31px 'Gilroy', arial, helvetica, sans-serif;
-    margin-bottom: 25px;
-    margin-top: 15px;
-  }
-  .content__subtitle{
-    margin:0;
-    width: 235px;
-    height: 50px;
-    font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
-  }
-  .content__text{
-    width: 236px;
-    height: 51px;
-    font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
-  }
-  .content__button{
-    display: none;
-  }
+   background-size: 6em;
+ }
+ .header{
+   padding: 25px 0 0 30px;
+   margin-bottom: 0;
+ }
+ .content{
+   width: 259px;
+   padding: 0 0 58% 30px;
+   background-size: 16em;
+   background-position: bottom center;
+ }
+ .content__title{
+   padding: 0;
+   width: 247px;
+   height: 93px;
+   font:800 25px/31px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 25px;
+   margin-top: 15px;
+ }
+ .content__subtitle{
+   margin:0;
+   width: 235px;
+   height: 50px;
+   font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .content__text{
+   width: 236px;
+   height: 51px;
+   font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .content__button{
+   display: none;
+ }
 }
