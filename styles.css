@@ -1,54 +1,275 @@
+a{
+  text-decoration: none;
+}
+.body{
+  margin: 0;
+}
+.wrapper{
+  background: #3030C1;
+  margin: auto;
+  height: 840px;
+}
+.header{
+  padding: 60px 9% 0 9%;
+  margin-bottom: 82px;
+}
+.logo{
+  background: left no-repeat url(img/logo.svg);
+  width: 180px;
+  height: 47px;
+}
+.content{
+  padding: 0 43px 135px 130px;
+  width: 1140px;
+  background: top right no-repeat url(img/img.svg);
+}
 .content__title{
-  font-family:'Gilroy Bold', arial, helvetica, sans-serif;
+  color: #fff;
+  padding-top: 50px;
+  font: 800 45px/55px 'Gilroy', arial, helvetica, sans-serif;
+  margin-bottom: 32px;
+  padding-right: 45%;
 }
 .content__subtitle{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  color: #FFCC33;
+  width: 420px;
+  font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
+  margin-bottom: 10px;
 }
 .content__text{
-  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+  color: #fff;
+  width: 461px;
+  font: 300 20px/23px 'Gilroy', arial, helvetica, sans-serif;
+  margin-bottom: 50px;
+  margin-top: 0;
 }
 .content__button{
-  font-family: 'montserratbold', arial, helvetica, sans-serif;
+  padding: 17px 25px;
+  color:  #3030C1;
+  width: 170px;
+  height: 24px;
+  background: #FFCC33;
+  font: 900 20px/24px 'montserratbold', arial, helvetica, sans-serif;
+  cursor: pointer;
+  opacity: .9;
+  transition: opacity .5s ease-out;
+}
+.content__button:hover{
+  opacity: 1;
 }
 .plans__title-one{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-one__title{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-one__subtitle{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-two__title{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-two__subtitle{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-three__title{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
 }
 .container-three__subtitle{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
 }
 .plans__title-two{
-  font-family:'Gilroy Bold', arial, helvetica, sans-serif;
+  font:  800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
 }
 .plans__text{
-  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 30px/35px 'Gilroy', arial, helvetica, sans-serif;
 }
 .application__title{
-  font-family: 'Gilroy Bold', arial, helvetica, sans-serif;
+  font: 800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
 }
 .from-application__name{
-  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 20px/24px 'Gilroy', arial, helvetica, sans-serif;
 }
 .from-application__mail{
-  font-family: 'Gilroy Regular', arial, helvetica, sans-serif;
+  font: 300 20px/24px 'Gilroy', arial, helvetica, sans-serif;
 }
 .from-application__button{
-  font-family: 'montserratbold', arial, helvetica, sans-serif;
+  font: 900 20px/25px 'montserratbold', arial, helvetica, sans-serif;
 }
 .footer__logo{
-  font-family: 'robotoregular', arial, helvetica, sans-serif;
+  font: 400 15px/18px'robotoregular', arial, helvetica, sans-serif;
+}
+@media (max-width:1320px){
+  .content{
+    background-size: 35em;
+    padding-right: 0;
+    padding-left: 105px;
+    width: 1050px;
+  }
+  .content__title{
+     font: 800 40px/50px 'Gilroy', arial, helvetica, sans-serif;
+  }
+}
+@media(max-width:1170px) {
+  .content{
+    background-size: 33em;
+    padding-right: 0;
+    padding-left: 97px;
+    width: 975px;
+  }
+  .content__title{
+     font: 800 37px/50px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__text{
+    font: 300 19px/23px 'Gilroy', arial, helvetica, sans-serif;
+  }
+}
+@media(max-width:1050px) {
+  .wrapper{
+    height: 700px;
+  }
+  .content{
+    background-size: 30em;
+    padding-left: 90px;
+    padding-right: 0;
+    width: 900px;
+  }
+  .content__title{
+   font: 800 35px/50px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 20px;
+  }
+  .content__subtitle{
+   margin-top: 0;
+   font: 800 25px/30px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__text{
+  font: 300 17px/23px 'Gilroy', arial, helvetica, sans-serif;
+  margin-bottom: 60px;
+  }
+}
+@media (max-width: 968px) {
+  .wrapper{
+    height: 600px;
+  }
+  .header{
+    margin-bottom: 35px;
+  }
+  .content{
+    background-size: 27em;
+    padding-left: 90px;
+    padding-right: 0;
+    width: 859px;
+  }
+  .content__title{
+   font: 800 33px/50px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 20px;
+  }
+  .content__subtitle{
+   margin-top: 0;
+   font: 800 30px/30px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__text{
+   font: 300 19px/23px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__button{
+    padding: 15px 22px;
+    font: 900 19px/22px 'montserratbold', arial, helvetica, sans-serif;
+  }
+}
+@media( max-width:857px){
+  .wrapper{
+    height: 500px;
+  }
+  .content{
+    background-size: 24em;
+    padding-left: 80px;
+    width: 756px;
+  }
+  .content__title{
+   font: 800 26px/40px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 15px;
+  }
+  .content__subtitle{
+   margin-top: 0;
+   font: 800 24px/25px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__text{
+   font: 300 16px/20px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 30px;
+  }
+}
+@media(max-width:768px) {
+  .wrapper{
+    height: 460px;
+  }
+  .logo{
+   background-size: 8em;
+ }
+ .header{
+   padding: 25px 0 0 40px;
+   margin-bottom: 40px;
+ }
+ .content{
+   padding: 0 35% 50px 40px;
+   width: 455px;
+   background-size: 20em;
+ }
+ .content__title{
+   padding: 0;
+   font: 800 28px/31px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 20px;
+   margin-top: 15px;
+ }
+ .content__subtitle{
+   margin:0;
+   margin-bottom: 10px;
+   font: 800 24px/25px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .content__text{
+   font: 300 17px/17px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .content__button{
+     padding: 14px 15px;
+     font: 900 15px/22px 'montserratbold', arial, helvetica, sans-serif;
+   }
+}
+@media(max-width:424px){
+  span{
+    display: block;
+  }
+  .logo{
+   background-size: 6em;
+ }
+ .header{
+   padding: 25px 0 0 30px;
+   margin-bottom: 0;
+ }
+ .content{
+   width: 259px;
+   padding: 0 0 58% 30px;
+   background-size: 16em;
+   background-position: bottom center;
+ }
+ .content__title{
+   padding: 0;
+   width: 247px;
+   height: 93px;
+   font:800 25px/31px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 25px;
+   margin-top: 15px;
+ }
+ .content__subtitle{
+   margin:0;
+   width: 235px;
+   height: 50px;
+   font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .content__text{
+   width: 236px;
+   height: 51px;
+   font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .content__button{
+   display: none;
+ }
 }
