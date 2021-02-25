@@ -472,7 +472,7 @@ a{
    height: 80px;
  }
 }
-@media(max-width:424px){
+@media(max-width:424px) {
   .wrapper{
     height: 620px;
   }
@@ -483,12 +483,12 @@ a{
    background-size: 6em;
  }
  .header{
-   padding: 25px 0 0 30px;
+   padding: 25px 0 0 50px;
    margin-bottom: 0;
  }
  .content{
    width: 259px;
-   padding: 0 0 58% 30px;
+   padding: 0 0 58% 50px;
    background-size: 16em;
    background-position: bottom center;
  }
@@ -524,7 +524,7 @@ a{
    font:  800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
  }
  .container{
-   margin-left: 30px;
+   margin-left: 90px;
    display: block;
  }
  .container:last-child{
@@ -572,7 +572,7 @@ a{
    font:  800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
  }
  .plans__text{
-   margin-left: 33px;
+   margin-left: 85px;
    height: 210px;
    width: 257px;
    font: 300 18px/20px 'Gilroy', arial, helvetica, sans-serif;
@@ -586,28 +586,28 @@ a{
  .application__title{
    margin-bottom: 90px;
    padding-top: 45px;
-   font: 800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
+   font: 800 22px/24px 'Gilroy', arial, helvetica, sans-serif;
  }
  .from-application{
    width: 260px;
    height: 45px;
-   padding-left: 33px;
+   padding-left: 90px;
    align-items: normal;
  }
  .from-application__name{
    padding: 17px 92px 17px 17px;
    margin-bottom: 13px;
- 	 font: 300 10px/11px 'Gilroy', arial, helvetica, sans-serif;
+   font: 300 10px/11px 'Gilroy', arial, helvetica, sans-serif;
  }
  .from-application__mail{
- 	 width: 200px;
+   width: 200px;
    padding: 17px 45px 17px 17px;
- 	 margin-bottom: 26px;
- 	 font: 300 10px/11px 'Gilroy', arial, helvetica, sans-serif;
+   margin-bottom: 26px;
+   font: 300 10px/11px 'Gilroy', arial, helvetica, sans-serif;
  }
  .from-application__button{
    padding: 17px 90px;
-	 font: 900 10px/12px 'montserratblack', arial, helvetica, sans-serif;
+   font: 900 10px/12px 'montserratblack', arial, helvetica, sans-serif;
  }
  .footer{
    height: 60px;
@@ -615,5 +615,24 @@ a{
  .footer__logo{
    padding: 23px 0 0 30px;
    font: 400 10px/11px'robotoregular', arial, helvetica, sans-serif;
+ }
+}
+@media(max-width:320px){
+ .header{
+   padding: 25px 0 0 30px;
+ }
+ .content{
+   padding: 0 0 58% 30px;
+ }
+ .container{
+   margin-left: 90px;
+ }
+ .plans__text{
+   margin-left: 33px;
+ }
+ .application__title{
+   font: 800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
+ }
+   .padding-left: 33px;{
  }
 }
