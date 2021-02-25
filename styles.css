@@ -83,7 +83,7 @@ a{
 }
 .container-one{
   margin-left: 130px;
-  background: top center no-repeat url(img/medal.svg);
+  background: center 50px no-repeat url(img/medal.svg);
 }
 .container-one__title{
   text-align: center;
@@ -98,7 +98,7 @@ a{
   display: block;
 }
 .container-two{
-  background: top center no-repeat url(img/bag.svg);
+  background: center 50px no-repeat url(img/bag.svg);
 }
 .container-two__title{
   margin-bottom: 0;
@@ -115,7 +115,7 @@ a{
   display: block;
 }
 .container-three{
-  background: top center no-repeat url(img/dollar.svg);
+  background: center 45px no-repeat url(img/dollar.svg);
 }
 .container-three__title{
   margin-bottom: 25px;
@@ -625,14 +625,34 @@ a{
    padding: 0 0 58% 30px;
  }
  .container{
-   margin-left: 90px;
+   margin-left: 30px;
+ }
+ .plans__title-one{
+   margin-top: 30px;
+   margin-bottom: 30px;
+ }
+ .plans__title-two{
+   margin-top: 50px;
  }
  .plans__text{
    margin-left: 33px;
  }
+ .application{
+   height: 340px;
+ }
  .application__title{
    font: 800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
  }
-   .padding-left: 33px;{
+ .font-application{
+   padding-left: 30px;
+ }
+ .from-application__name{
+   padding: 17px 92px 17px 17px;
+ }
+ .from-application__mail{
+   padding: 17px 43px 17px 17px;
+ }
+ .from-application__button{
+   padding: 17px 60px;
  }
 }
