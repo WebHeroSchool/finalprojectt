@@ -472,6 +472,66 @@ a{
    height: 80px;
  }
 }
+@media(max-width:525px) {
+  .wrapper{
+    height: 400px;
+  }
+  .header{
+    margin-bottom: 30px;
+  }
+  .content{
+    width: 380px;
+    padding: 0 20% 50px 40px;
+    background-size: 15em;
+  }
+  .content__title{
+    margin-bottom: 15px;
+    width: 250px;
+    font: 800 18px/31px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__subtitle{
+    width: 250px;
+    font: 800 18px/25px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__text{
+    font: 300 11px/17px 'Gilroy', arial, helvetica, sans-serif;
+    width: 300px;
+  }
+  .content__button{
+    font: 900 11px/22px 'montserratbold', arial, helvetica, sans-serif;
+  }
+  .plans{
+    height: 630px;
+  }
+  .plans__title-one, .plans__title-two, .application__title {
+    font: 800 23px/49px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .plans__title-one{
+    margin-bottom: 10px;
+  }
+  .container-one, .container-two, .container-three{
+    padding-top: 120px;
+    height: 140px;
+    background-position-y: 25px;
+  }
+  .container-one__title, .container-two__title, .container-three__title {
+    font: 800 14px/30px 'Gilroy', arial, helvetica, sans-serif;
+    margin-top: 0;
+  }
+  .container-one__subtitle, .container-two__subtitle, .container-three__subtitle {
+    font: 800 11px/20px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .plans__text {
+    font: 300 21px/30px 'Gilroy', arial, helvetica, sans-serif;
+}
+  .application__title{
+    padding-top: 30px;
+    margin-bottom: 150px;
+  }
+  .from-application{
+  padding-left: 80px;
+  }
+}
 @media(max-width:424px) {
   .wrapper{
     height: 620px;
@@ -643,7 +703,7 @@ a{
  .application__title{
    font: 800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
  }
- .font-application{
+ .from-application{
    padding-left: 30px;
  }
  .from-application__name{
