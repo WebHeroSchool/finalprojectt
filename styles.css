@@ -280,17 +280,18 @@ a{
     height: 840px;
   }
   .header{
-    padding: 60px 9% 0 9%;
-    margin-bottom: 82px;
+    padding: 54px 9% 0 9%;
+    margin-bottom: 70px;
   }
   .logo{
     width: 250px;
     height: 65px;
-    background-size: 13em;
+    background-size: 11em;
   }
   .content{
-    padding: 0 43px 135px 130px;
+    padding: 0 38px 135px 130px;
     width: 1140px;
+    background-size: 35em;
   }
   .content__title{
     padding-top: 50px;
