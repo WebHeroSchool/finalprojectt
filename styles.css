@@ -165,7 +165,7 @@ a{
 	width: 600px;
   padding: 30px 45px 30px 30px;
 	margin-bottom: 100px;
-	font: 300 20px/23px 'Gilroy', arial, helvetica, sans-serif;
+	font: 300 35px/23px 'Gilroy', arial, helvetica, sans-serif;
 }
 .from-application__button{
   padding: 50px 200px;
@@ -213,7 +213,7 @@ a{
 }
 @media(max-width:1580px) {
   .wrapper{
-    height: 100px;
+    height: 1000px;
   }
   .header{
     margin-bottom: 0;
@@ -243,7 +243,7 @@ a{
     font: 900 32px/24px 'montserratbold', arial, helvetica, sans-serif;
   }
   .plans{
-    height: 100px;
+    height: 1000px;
   }
   .plans__title-one, .plans__title-two, .application__title{
    font: 800 55px/49px 'Gilroy', arial, helvetica, sans-serif;
@@ -538,7 +538,7 @@ a{
     font: 900 19px/22px 'montserratbold', arial, helvetica, sans-serif;
   }
   .plans{
-    height: 630px;
+    height: 680px;
   }
   .plans__title-one{
     margin-top: 20px;
@@ -571,16 +571,24 @@ a{
     height: 100px;
   }
 }
-@media(max-width:858px){
+@media(max-width:875px){
   .wrapper{
     height: 500px;
   }
+  .header{
+    padding-top: 30px;
+    padding-left: 50px
+  }
+  .logo{
+    background-size: 8em;
+  }
   .content{
-    background-size: 24em;
-    padding-left: 80px;
-    width: 756px;
+    background-size: 20em;
+    padding-left: 50px;
+    width: 87vw;
   }
   .content__title{
+  padding-top: 0;
    font: 800 26px/40px 'Gilroy', arial, helvetica, sans-serif;
    margin-bottom: 15px;
   }
@@ -592,8 +600,8 @@ a{
    font: 300 16px/20px 'Gilroy', arial, helvetica, sans-serif;
    margin-bottom: 30px;
   }
-  .plans__title-one, .plans__title-two, .application__title{
-    font:  800 28px/49px 'Gilroy', arial, helvetica, sans-serif;
+  .container-one__title, .container-two__title, .container-three__title {
+    font: 800 20px/33px 'Gilroy', arial, helvetica, sans-serif;
   }
   .plans__text{
     font: 300 21px/35px 'Gilroy', arial, helvetica, sans-serif;
@@ -605,7 +613,7 @@ a{
     height: 530px;
   }
   .from-application{
-    padding-left: 260px;
+    padding-left: 27%;
   }
   .from-application__name{
     padding: 25px 150px 25px 25px;
@@ -636,13 +644,13 @@ a{
    background-size: 8em;
  }
  .header{
-   padding: 25px 0 0 40px;
+   padding: 25px 0 0 5%;
    margin-bottom: 40px;
  }
  .content{
-   padding: 0 35% 50px 40px;
+   padding: 0 30% 50px 5%;
    width: 455px;
-   background-size: 20em;
+   background-size: 17em;
  }
  .content__title{
    padding: 0;
@@ -668,19 +676,22 @@ a{
    height: 170px;
  }
  .container-one__title,.container-two__title,.container-three__title{
-   font: 800 20px/30px 'Gilroy', arial, helvetica, sans-serif;
+   font: 800 18px/30px 'Gilroy', arial, helvetica, sans-serif;
  }
  .container-one__subtitle,.container-two__subtitle,.container-three__subtitle{
-   font:  800 15px/20px 'Gilroy', arial, helvetica, sans-serif;
+   font:  800 14px/20px 'Gilroy', arial, helvetica, sans-serif;
+ }
+ .application__title{
+   margin-bottom: 20%;
  }
  .from-application{
-   padding-left: 210px;
+   padding-left: 25%;
  }
  .footer{
    height: 80px;
  }
 }
-@media(max-width:600px) {
+@media(max-width:670px) {
   .wrapper{
     height: 400px;
   }
@@ -688,25 +699,25 @@ a{
     background-size:7em;
   }
   .content {
-    padding: 0 28% 50px 40px;
+    padding: 0 30% 50px 40px;
     width: 380px;
     background-size: 16em;
 }
   .content__title{
-    font: 800 20px/27px 'Gilroy', arial, helvetica, sans-serif;
-    width: 300px;
+    font: 800 22px/27px 'Gilroy', arial, helvetica, sans-serif;
+    width: 50vw;
   }
   .content__subtitle{
-    width: 300px;
-    font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
+    width: 50vw;
+    font: 800 22px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__text {
-    font: 300 12px/17px 'Gilroy', arial, helvetica, sans-serif;
-    width: 300px;
+    font: 300 14px/17px 'Gilroy', arial, helvetica, sans-serif;
+    width: 50vw;
   }
   .content__button {
     padding: 13px 15px;
-    font: 900 11px/22px 'montserratbold', arial, helvetica, sans-serif;
+    font: 900 14px/22px 'montserratbold', arial, helvetica, sans-serif;
   }
   .plans{
     height: 550px;
@@ -717,17 +728,20 @@ a{
   .plans__title-one{
     margin-bottom: 10px;
   }
+  .container-one{
+    margin-left: 5%;
+  }
   .container-one, .container-two, .container-three{
     padding-top: 120px;
     height: 140px;
     background-position-y: 25px;
   }
   .container-one__title, .container-two__title, .container-three__title {
-    font: 800 14px/30px 'Gilroy', arial, helvetica, sans-serif;
+    font: 800 18px/30px 'Gilroy', arial, helvetica, sans-serif;
     margin-top: 0;
   }
   .container-one__subtitle, .container-two__subtitle, .container-three__subtitle {
-    font: 800 11px/20px 'Gilroy', arial, helvetica, sans-serif;
+    font: 800 14px/20px 'Gilroy', arial, helvetica, sans-serif;
   }
   .plans__text {
     font: 300 18px/30px 'Gilroy', arial, helvetica, sans-serif;
@@ -737,57 +751,158 @@ a{
     margin-bottom: 150px;
   }
   .from-application{
-   padding-left: 110px;
+   padding-left: 23%;
   }
 }
-@media(max-width:525px) {
+@media(max-width:595px) {
   .header{
-    margin-bottom: 30px;
+    margin-bottom: 25px;
+  }
+  .logo{
+    background-size: 6em;
   }
   .content{
-    padding: 0 20% 50px 40px;
-    background-size: 15em;
+    width: 67vw;
+    padding: 0 20% 50px 5%;
+    background-size: 14em;
   }
   .content__title{
     margin-bottom: 15px;
-    width: 250px;
+    width: 50vw;
     font: 800 18px/31px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__subtitle{
-    width: 250px;
+    width: 50vw;
     font: 800 18px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__text{
-    font: 300 11px/17px 'Gilroy', arial, helvetica, sans-serif;
-    width: 300px;
+    font: 300 10px/17px 'Gilroy', arial, helvetica, sans-serif;
+    width: 50vw;
+  }
+  .content__button {
+    padding: 11px 14px;
+    font: 900 10px/22px 'montserratbold', arial, helvetica, sans-serif;
   }
   .plans{
     height: 630px;
   }
+  .plans__title-one, .plans__title-two, .application__title {
+    font: 800 21px/49px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .container-one, .container-two, .container-three {
+    height: 18vh;
+    background-size: 5em;
+  }
+  .container-one__title, .container-two__title, .container-three__title {
+    font: 800 15px/16px 'Gilroy', arial, helvetica, sans-serif;
+    margin: 0;
+  }
+  .container-one__subtitle, .container-two__subtitle, .container-three__subtitle {
+    font: 800 10px/15px 'Gilroy', arial, helvetica, sans-serif;
+    margin-top: 25px;
+  }
+  .container-two__subtitle{
+   margin-top: 10px;
+  }
   .plans__text {
-    font: 300 21px/30px 'Gilroy', arial, helvetica, sans-serif;
+    font: 300 20px/30px 'Gilroy', arial, helvetica, sans-serif;
   }
   .from-application{
-  padding-left: 80px;
+   padding-left: 10%;
+   width: 80vw;
   }
 }
-@media(max-width:430px) {
+@media(max-width:490px) {
+  .wrapper{
+    height: 350px;
+  }
+  .header{
+    margin-bottom: 15px;
+  }
+  .content{
+    background-size: 12em;
+  }
+  .content__title {
+    margin-bottom: 10px;
+    width: 46vw;
+    font: 800 16px/25px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__subtitle {
+    width: 47vw;
+    margin-bottom: 20px;
+    font: 800 16px/20px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .content__text {
+    font: 300 9px/12px 'Gilroy', arial, helvetica, sans-serif;
+    width: 47vw;
+  }
+  .content__button {
+    font: 900 9px/22px 'montserratbold', arial, helvetica, sans-serif;
+  }
+  .plans{
+    height: 550px;
+  }
+  .plans__title-one, .plans__title-two, .application__title {
+    font: 800 18px/49px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .plans__title-one{
+    margin-top:0;
+  }
+  .container-one, .container-two, .container-three {
+    padding-top: 100px;
+    height: 25vh;
+    background-size: 4em;
+  }
+  .container-one__title, .container-two__title, .container-three__title {
+    font: 800 12px/15px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .container-one__subtitle, .container-two__subtitle, .container-three__subtitle {
+    font: 800 9px/13px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .application{
+    height: 350px;
+  }
+  .application__title {
+    padding-top: 10px;
+    margin-bottom: 80px;
+  }
+  .from-application__name{
+    padding: 17px 92px 17px 17px;
+    margin-bottom: 13px;
+    font: 300 10px/11px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .from-application__mail{
+    width: 200px;
+    padding: 17px 45px 17px 17px;
+    margin-bottom: 26px;
+    font: 300 10px/11px 'Gilroy', arial, helvetica, sans-serif;
+  }
+  .from-application__button{
+    padding: 17px 90px;
+    font: 900 10px/12px 'montserratblack', arial, helvetica, sans-serif;
+  }
+  .footer{
+    height: 60px;
+  }
+  .footer__logo{
+    padding: 23px 0 0 30px;
+    font: 400 10px/11px'robotoregular', arial, helvetica, sans-serif;
+  }
+}
+@media(max-width:435px) {
   .wrapper{
     height: 620px;
   }
   .content__title_text{
     display: block;
   }
-  .logo{
-   background-size: 6em;
- }
  .header{
-   padding: 25px 0 0 80px;
+   padding: 25px 0 0 22%;
    margin-bottom: 0;
  }
  .content{
    width: 300px;
-   padding: 0 0 50% 80px;
+   padding: 0 0 50% 22%;
    background-size: 16em;
    background-position: bottom center;
  }
@@ -823,7 +938,7 @@ a{
    font:  800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
  }
  .container{
-   margin-left: 70px;
+   margin-left: 22%;
    display: block;
  }
  .container:last-child{
@@ -892,28 +1007,6 @@ a{
    height: 45px;
    padding-left: 90px;
    align-items: normal;
- }
- .from-application__name{
-   padding: 17px 92px 17px 17px;
-   margin-bottom: 13px;
-   font: 300 10px/11px 'Gilroy', arial, helvetica, sans-serif;
- }
- .from-application__mail{
-   width: 200px;
-   padding: 17px 45px 17px 17px;
-   margin-bottom: 26px;
-   font: 300 10px/11px 'Gilroy', arial, helvetica, sans-serif;
- }
- .from-application__button{
-   padding: 17px 90px;
-   font: 900 10px/12px 'montserratblack', arial, helvetica, sans-serif;
- }
- .footer{
-   height: 60px;
- }
- .footer__logo{
-   padding: 23px 0 0 30px;
-   font: 400 10px/11px'robotoregular', arial, helvetica, sans-serif;
  }
 }
 @media(max-width:390px){
