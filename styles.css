@@ -71,20 +71,19 @@ a{
 }
 .container{
   display: flex;
+  justify-content: space-around;
 }
 .container:last-child{
   margin-right: 0;
 }
 .container-one, .container-two, .container-three{
   display: inline-block;
-  margin-right: 60px;
-  width: 500px;
+  width: 30vw;
   height: 280px;
   box-shadow: 7px 7px 30px grey;
   padding-top:  200px;
 }
 .container-one{
-  margin-left: 100px;
   background: center 50px no-repeat url(img/medal.svg);
   background-size: 11em;
 }
@@ -324,19 +323,16 @@ a{
     font:  800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-one, .container-two, .container-three{
-    margin-right: 22px;
-    width: 380px;
     height: 240px;
     padding-top:  160px;
   }
   .container-one{
     background: center 50px no-repeat url(img/medal.svg);
-    margin-left: 130px;
   }
-  .container-one__title{
+  .container-one__title, .container-two__title, .container-three__title{
     font: 800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
   }
-  .container-one__subtitle{
+  .container-one__subtitle, .container-two__subtitle, .container-three__subtitle{
     font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-two{
@@ -344,22 +340,15 @@ a{
   }
   .container-two__title{
     margin-bottom: 0;
-    font:  800 30px/36px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-two__subtitle{
     margin-top: 15px;
-    font:  800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-three{
     background: center 45px no-repeat url(img/dollar.svg);
   }
   .container-three__title{
     margin-bottom: 25px;
-    font:  800 30px/37px 'Gilroy', arial, helvetica, sans-serif;
-  }
-  .container-three__subtitle{
-    font:  800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
-    color: #3A3A3A;
   }
   .plans__title-two{
     margin-top: 55px;
@@ -418,9 +407,6 @@ a{
   .content__title{
      font: 800 40px/50px 'Gilroy', arial, helvetica, sans-serif;
   }
-  .container-one{
-    margin-left: 75px;
-  }
   .from-application{
     padding-left: 500px;
   }
@@ -445,11 +431,7 @@ a{
     font:  800 35px/49px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-one, .container-two, .container-three{
-    width: 330px;
     height: 210px;
-  }
-  .container-one{
-    margin-left: 70px;
   }
   .container-one__title,.container-two__title,.container-three__title{
     font: 800 25px/37px 'Gilroy', arial, helvetica, sans-serif;
@@ -498,9 +480,6 @@ a{
   .plans__title-one{
    margin-top: 35px;
   }
-  .container-one{
-    margin-left: 25px;
-  }
   .from-application{
     padding-left: 360px;
   }
@@ -517,14 +496,15 @@ a{
     margin-bottom: 35px;
   }
   .content{
-    background-size: 27em;
+    background-size: 23em;
     padding-left: 90px;
     padding-right: 0;
-    width: 859px;
+    width: 90vw;
   }
   .content__title{
    font: 800 33px/50px 'Gilroy', arial, helvetica, sans-serif;
    margin-bottom: 20px;
+   padding-top: 0;
   }
   .content__subtitle{
    margin-top: 0;
@@ -544,12 +524,8 @@ a{
     margin-top: 20px;
   }
   .container-one, .container-two, .container-three{
-    width: 320px;
     height: 190px;
     background-size: 7em;
-  }
-  .container-one{
-   margin-left: 45px;
   }
   .container-one__title,.container-two__title,.container-three__title{
     font: 800 23px/33px 'Gilroy', arial, helvetica, sans-serif;
@@ -571,7 +547,7 @@ a{
     height: 100px;
   }
 }
-@media(max-width:875px){
+@media(max-width:916px){
   .wrapper{
     height: 500px;
   }
@@ -588,7 +564,7 @@ a{
     width: 87vw;
   }
   .content__title{
-  padding-top: 0;
+   padding-top: 0;
    font: 800 26px/40px 'Gilroy', arial, helvetica, sans-serif;
    margin-bottom: 15px;
   }
@@ -601,13 +577,10 @@ a{
    margin-bottom: 30px;
   }
   .container-one__title, .container-two__title, .container-three__title {
-    font: 800 20px/33px 'Gilroy', arial, helvetica, sans-serif;
+  font: 800 20px/33px 'Gilroy', arial, helvetica, sans-serif;
   }
   .plans__text{
-    font: 300 21px/35px 'Gilroy', arial, helvetica, sans-serif;
-  }
-  .container-one, .container-two, .container-three{
-    width: 290px;
+  font: 300 21px/35px 'Gilroy', arial, helvetica, sans-serif;
   }
   .application{
     height: 530px;
@@ -728,20 +701,18 @@ a{
   .plans__title-one{
     margin-bottom: 10px;
   }
-  .container-one{
-    margin-left: 5%;
-  }
   .container-one, .container-two, .container-three{
     padding-top: 120px;
     height: 140px;
+    width: 27vw;
     background-position-y: 25px;
   }
   .container-one__title, .container-two__title, .container-three__title {
-    font: 800 18px/30px 'Gilroy', arial, helvetica, sans-serif;
+    font: 800 16px/30px 'Gilroy', arial, helvetica, sans-serif;
     margin-top: 0;
   }
   .container-one__subtitle, .container-two__subtitle, .container-three__subtitle {
-    font: 800 14px/20px 'Gilroy', arial, helvetica, sans-serif;
+    font: 800 12px/20px 'Gilroy', arial, helvetica, sans-serif;
   }
   .plans__text {
     font: 300 18px/30px 'Gilroy', arial, helvetica, sans-serif;
@@ -790,7 +761,8 @@ a{
     font: 800 21px/49px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-one, .container-two, .container-three {
-    height: 18vh;
+    height: 12vh;
+    width: 25vw;
     background-size: 5em;
   }
   .container-one__title, .container-two__title, .container-three__title {
@@ -850,7 +822,7 @@ a{
   }
   .container-one, .container-two, .container-three {
     padding-top: 100px;
-    height: 25vh;
+    height: 12vh;
     background-size: 4em;
   }
   .container-one__title, .container-two__title, .container-three__title {
@@ -934,6 +906,7 @@ a{
  }
  .plans__title-one{
    text-align: center;
+   margin-top: 25px;
    margin-bottom: 25px;
    font:  800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
  }
@@ -956,30 +929,20 @@ a{
    margin-left: 0;
    background-size: 5em;
  }
- .container-one__title{
+ .container-one__title,.container-two__title,.container-three__title{
    font: 800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
  }
- .container-one__subtitle{
-   font: 800 10px/12px 'Gilroy', arial, helvetica, sans-serif;
+ .container-one__subtitle, .container-two__subtitle, .container-three__subtitle{
+   font: 800 13px/12px 'Gilroy', arial, helvetica, sans-serif;
  }
  .container-two{
    background-size: 5em;
  }
  .container-two__title{
    margin-top: 10px;
-   font:  800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
- }
- .container-two__subtitle{
-   font:  800 10px/12px 'Gilroy', arial, helvetica, sans-serif;
  }
  .container-three{
    background-size: 5em;
- }
- .container-three__title{
-   font:  800 20px/24px 'Gilroy', arial, helvetica, sans-serif;
- }
- .container-three__subtitle{
-   font:  800 10px/12px 'Gilroy', arial, helvetica, sans-serif;
  }
  .plans__title-two{
    margin-bottom: 32px;
