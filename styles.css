@@ -976,16 +976,20 @@ a{
     padding: 25px 0 0 50px;
   }
   .content{
+    width: 90vw;
     padding: 0 0 50% 50px;
   }
   .content__title {
-    font: 800 30px/31px 'Gilroy', arial, helvetica, sans-serif;
+    width: 85vw;
+    font: 800 27px/31px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__subtitle {
-    font: 800 25px/25px 'Gilroy', arial, helvetica, sans-serif;
+    width: 85vw;
+    font: 800 23px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__text {
-    font: 300 19px/17px 'Gilroy', arial, helvetica, sans-serif;
+    width: 85vw
+    font: 300 17px/17px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container, .plans__text{
     margin-left: 60px;
