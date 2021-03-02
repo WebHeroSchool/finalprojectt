@@ -666,7 +666,7 @@ a{
 }
 @media(max-width:670px) {
   .wrapper{
-    height: 400px;
+    height: 450px;
   }
   .logo{
     background-size:7em;
@@ -703,12 +703,12 @@ a{
   }
   .container-one, .container-two, .container-three{
     padding-top: 120px;
-    height: 140px;
+    height: 35vh;
     width: 27vw;
     background-position-y: 25px;
   }
   .container-one__title, .container-two__title, .container-three__title {
-    font: 800 16px/30px 'Gilroy', arial, helvetica, sans-serif;
+    font: 800 15px/25px 'Gilroy', arial, helvetica, sans-serif;
     margin-top: 0;
   }
   .container-one__subtitle, .container-two__subtitle, .container-three__subtitle {
@@ -761,7 +761,7 @@ a{
     font: 800 21px/49px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-one, .container-two, .container-three {
-    height: 12vh;
+    height: 25vh;
     width: 25vw;
     background-size: 5em;
   }
@@ -822,7 +822,6 @@ a{
   }
   .container-one, .container-two, .container-three {
     padding-top: 100px;
-    height: 12vh;
     background-size: 4em;
   }
   .container-one__title, .container-two__title, .container-three__title {
