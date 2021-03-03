@@ -71,7 +71,7 @@ a{
 }
 .container{
   display: flex;
-  justify-content: space-around;
+  justify-content: center;
 }
 .container:last-child{
   margin-right: 0;
@@ -355,8 +355,8 @@ a{
     margin-bottom: 25px;
   }
   .plans__title-two{
-    margin-top: 55px;
-    margin-bottom: 25px;
+    margin-top: 50px;
+    margin-bottom: 30px;
     font:  800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
   }
   .plans__text{
