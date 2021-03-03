@@ -320,13 +320,16 @@ a{
   }
   .plans__title-one{
     margin-top: 55px;
+    margin-bottom: 35px;
     font:  800 40px/49px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-one, .container-two, .container-three{
     height: 240px;
+    width: 26vw;
     padding-top:  160px;
   }
   .container-one{
+    margin-right: 2vw;
     background: center 50px no-repeat url(img/medal.svg);
   }
   .container-one__title, .container-two__title, .container-three__title{
@@ -336,6 +339,7 @@ a{
     font: 800 20px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-two{
+    margin-right: 2vw;
     background: center 50px no-repeat url(img/bag.svg);
   }
   .container-two__title{
