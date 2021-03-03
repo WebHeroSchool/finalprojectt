@@ -735,7 +735,7 @@ a{
   .content{
     width: 67vw;
     padding: 0 20% 50px 5%;
-    background-size: 14em;
+    background-size: 13em;
   }
   .content__title{
     margin-bottom: 15px;
@@ -868,12 +868,12 @@ a{
     display: block;
   }
  .header{
-   padding: 25px 0 0 22%;
+   padding: 25px 0 0 15%;
    margin-bottom: 0;
  }
  .content{
    width: 300px;
-   padding: 0 0 50% 22%;
+   padding: 0 0 50% 15%;
    background-size: 16em;
    background-position: bottom center;
  }
@@ -976,7 +976,7 @@ a{
     padding: 25px 0 0 50px;
   }
   .content{
-    width: 90vw;
+    max-width: 90vw;
     padding: 0 0 50% 50px;
   }
   .content__title {
@@ -1003,7 +1003,8 @@ a{
    padding: 25px 0 0 30px;
  }
  .content{
-   padding: 0 0 58% 30px;
+   max-width: 85vw;
+   padding: 0 15px 58% 30px;
    background-position-x:10px;
  }
  .container{
