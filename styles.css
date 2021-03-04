@@ -27,7 +27,7 @@ a{
 .content__title{
   color: #fff;
   padding-top: 50px;
-  font: 800 62px/70px 'Gilroy', arial, helvetica, sans-serif;
+  font: 800 60px/70px 'Gilroy', arial, helvetica, sans-serif;
   margin-bottom: 60px;
   padding-right: 45%;
 }
@@ -39,8 +39,8 @@ a{
 }
 .content__text{
   color: #fff;
-  width: 1000px;
-  font: 300 35px/40px 'Gilroy', arial, helvetica, sans-serif;
+  width: 900px;
+  font: 300 33px/40px 'Gilroy', arial, helvetica, sans-serif;
   margin-bottom: 100px;
   margin-top: 0;
 }
@@ -84,6 +84,7 @@ a{
   padding-top:  200px;
 }
 .container-one{
+  margin-right: 3vw;
   background: center 50px no-repeat url(img/medal.svg);
   background-size: 11em;
 }
@@ -101,6 +102,7 @@ a{
   display: block;
 }
 .container-two{
+  margin-right: 3vw;
   background: center 50px no-repeat url(img/bag.svg);
   background-size: 11em;
 }
@@ -198,7 +200,7 @@ a{
   }
   .content__button{
   width: 900px;
-  font: 300 32px/40px 'Gilroy', arial, helvetica, sans-serif;
+  font: 900 32px/40px 'Gilroy', arial, helvetica, sans-serif;
   }
   .plans__title-two{
     margin-bottom: 55px;
@@ -568,6 +570,7 @@ a{
     width: 87vw;
   }
   .content__title{
+    width: 400px;
    padding-top: 0;
    font: 800 26px/40px 'Gilroy', arial, helvetica, sans-serif;
    margin-bottom: 15px;
@@ -577,7 +580,7 @@ a{
    font: 800 24px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__text{
-   font: 300 16px/20px 'Gilroy', arial, helvetica, sans-serif;
+   font: 300 15px/20px 'Gilroy', arial, helvetica, sans-serif;
    margin-bottom: 30px;
   }
   .container-one__title, .container-two__title, .container-three__title {
@@ -653,7 +656,7 @@ a{
    height: 170px;
  }
  .container-one__title,.container-two__title,.container-three__title{
-   font: 800 18px/30px 'Gilroy', arial, helvetica, sans-serif;
+   font: 800 17px/30px 'Gilroy', arial, helvetica, sans-serif;
  }
  .container-one__subtitle,.container-two__subtitle,.container-three__subtitle{
    font:  800 14px/20px 'Gilroy', arial, helvetica, sans-serif;
@@ -681,7 +684,7 @@ a{
     background-size: 16em;
 }
   .content__title{
-    font: 800 22px/27px 'Gilroy', arial, helvetica, sans-serif;
+    font: 800 21px/27px 'Gilroy', arial, helvetica, sans-serif;
     width: 50vw;
   }
   .content__subtitle{
@@ -689,7 +692,7 @@ a{
     font: 800 22px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__text {
-    font: 300 14px/17px 'Gilroy', arial, helvetica, sans-serif;
+    font: 300 13px/17px 'Gilroy', arial, helvetica, sans-serif;
     width: 50vw;
   }
   .content__button {
@@ -707,7 +710,7 @@ a{
   }
   .container-one, .container-two, .container-three{
     padding-top: 120px;
-    height: 35vh;
+    height: 140px;
     width: 27vw;
     background-position-y: 25px;
   }
@@ -730,6 +733,9 @@ a{
   }
 }
 @media(max-width:595px) {
+  .wrapper{
+    height: 450px;
+  }
   .header{
     margin-bottom: 25px;
   }
@@ -752,7 +758,7 @@ a{
   }
   .content__text{
     font: 300 10px/17px 'Gilroy', arial, helvetica, sans-serif;
-    width: 50vw;
+    width: 47vw;
   }
   .content__button {
     padding: 11px 14px;
@@ -765,7 +771,7 @@ a{
     font: 800 21px/49px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container-one, .container-two, .container-three {
-    height: 25vh;
+    height: 30vh;
     width: 25vw;
     background-size: 5em;
   }
@@ -800,13 +806,13 @@ a{
   }
   .content__title {
     margin-bottom: 10px;
-    width: 46vw;
-    font: 800 16px/25px 'Gilroy', arial, helvetica, sans-serif;
+    width: 47vw;
+    font: 800 15px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__subtitle {
     width: 47vw;
     margin-bottom: 20px;
-    font: 800 16px/20px 'Gilroy', arial, helvetica, sans-serif;
+    font: 800 15px/20px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__text {
     font: 300 9px/12px 'Gilroy', arial, helvetica, sans-serif;
@@ -899,7 +905,7 @@ a{
    margin-bottom: 50px;
    width: 300px;
    height: 51px;
-   font: 300 15px/17px 'Gilroy', arial, helvetica, sans-serif;
+   font: 300 19px/17px 'Gilroy', arial, helvetica, sans-serif;
  }
  .content__button{
    display: none;
@@ -984,15 +990,15 @@ a{
     padding: 0 0 50% 50px;
   }
   .content__title {
-    width: 85vw;
-    font: 800 27px/31px 'Gilroy', arial, helvetica, sans-serif;
+    width: 73vw;
+    font: 800 25px/31px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__subtitle {
     width: 85vw;
     font: 800 23px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__text {
-    width: 85vw;
+    width: 78vw;
     font: 300 17px/17px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container, .plans__text{
@@ -1010,6 +1016,12 @@ a{
    max-width: 85vw;
    padding: 0 15px 58% 30px;
    background-position-x:10px;
+ }
+ .content__title {
+    width: 80vw;;
+ }
+ .content__text {
+    width: 83vw;
  }
  .container{
    margin-left: 30px;
