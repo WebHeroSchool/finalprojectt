@@ -992,7 +992,7 @@ a{
     font: 800 23px/25px 'Gilroy', arial, helvetica, sans-serif;
   }
   .content__text {
-    width: 85vw
+    width: 85vw;
     font: 300 17px/17px 'Gilroy', arial, helvetica, sans-serif;
   }
   .container, .plans__text{
